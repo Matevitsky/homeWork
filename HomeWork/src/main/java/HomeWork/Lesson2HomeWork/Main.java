@@ -1,4 +1,4 @@
-package HomeWork.com.com.Lesson2HomeWork;
+package HomeWork.Lesson2HomeWork;
 
 public class Main {
    // private static Random rand = new Random();

@@ -1,4 +1,4 @@
-package HomeWork.com.com.Lesson2HomeWork;
+package HomeWork.Lesson2HomeWork;
 
 public class Fibonacci {
 
