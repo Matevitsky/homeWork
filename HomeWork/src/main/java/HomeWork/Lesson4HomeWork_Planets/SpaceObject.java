@@ -1,5 +1,6 @@
 package HomeWork.Lesson4HomeWork_Planets;
 
+
 import java.util.Objects;
 
 public abstract class SpaceObject {
@@ -7,13 +8,15 @@ public abstract class SpaceObject {
 
     public SpaceObject(String name) {
         this.name = name;
-    }
 
-    public abstract void print();
+    }
 
     public String getName() {
         return name;
     }
+
+    public abstract void print();
+
 
     @Override
     public String toString() {
@@ -22,9 +25,10 @@ public abstract class SpaceObject {
             '}';
     }
 
-
     public boolean equals(SpaceObject spaceObject) {
-        if (this == spaceObject) return true;
+        if (this == spaceObject) {
+            return true;
+        }
         return spaceObject.name.equals(this.name);
     }
 
